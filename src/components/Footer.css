@@ -1,0 +1,16 @@
+.footer h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #aaaaaa;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    background: #252525;
+
+}
