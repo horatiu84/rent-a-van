@@ -40,11 +40,20 @@
   align-items: center;
   width: 90%;
   margin-top: 3rem;
+  transition: transform .1s ease-in-out;
+  cursor: pointer;
+}
+
+.find_van:hover {
+  transform: translate(1px, 1px);
+}
+
+.find_van a {
+  text-decoration: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 1.3rem;
   line-height: 2rem;
   color: #ffffff;
-  cursor: pointer;
 }
