@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./components/About";
-import Home from "./components/Home";
-import Vans from "./components/Vans";
-import Footer from "./components/Footer";
+import About from "./components/About/About";
+import Home from "./components/Home/Home";
+import Vans from "./components/Vans/Vans";
+import Footer from "./components/Footer/Footer";
 import LogoVan from './assets/logog.png'
 import { Routes, Route, Link } from "react-router-dom";
 import "./App.css";
