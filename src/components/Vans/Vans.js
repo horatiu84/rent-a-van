@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import './Vans.css'
 
 const Vans = () => {
@@ -14,11 +15,13 @@ const Vans = () => {
 
   const mapVanList = vansList.map((van, id) => (
     <div className="van" key={id}>
+      <Link to={`/vans/${van.id}`}>
       <img src={van.imageUrl} alt="van images" />
       <h3>{van.name}</h3>
       <h3>{van.price}</h3>
       <span>/day</span>
       <h4>{van.type}</h4>
+      </Link>
     </div>
   ));
 
